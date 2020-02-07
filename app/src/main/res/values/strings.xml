@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DatabaseDemo</string>
+    <string name="add_a_new_employee">add a new employee</string>
+    <string name="select_department">select_department</string>
+    <string name="add_employee">add_employee</string>
+    <string name="view_Employees">view_Employees</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="edit_employee">edit_employee</string>
+    <string name="Update_Employee">Update_Employee</string>
+
+    <string-array name="departments">
+        <item>Technical</item>
+        <item>Support</item>
+        <item>Research and Devlopment</item>
+        <item>Marketing</item>
+        <item>Human Resources</item>
+    </string-array>
+</resources>
