@@ -133,11 +133,11 @@ public class EmployeeAdapter extends ArrayAdapter {
 //                Toast.makeText(mContext,"employee Update",Toast.LENGTH_SHORT).show();
                 if (mDatabase.updateEmployees(employee.getId(),name,dept,Double.parseDouble(salary))){
                     Toast.makeText(mContext,"employee Update",Toast.LENGTH_SHORT).show();
+                    loadEmployees();
                 }
-                else {
+                else
                     Toast.makeText(mContext,"employee not Update",Toast.LENGTH_SHORT).show();
-                }
-              //  loadEmployees();
+
 
                 alertDialog.dismiss();
             }
